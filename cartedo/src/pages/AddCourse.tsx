@@ -35,7 +35,7 @@ const AddCourse: React.FC = () => {
       <div>Add Course</div>
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="space-y-4 p-4 border rounded-lg shadow-md max-w-md mx-auto"
+        className="space-y-4 p-4 bg-white rounded-sm shadow-md max-w-md mx-auto"
       >
         <div>
           <label className="block text-sm font-medium">Title</label>
@@ -63,7 +63,7 @@ const AddCourse: React.FC = () => {
           )}
         </div>
 
-        <button type="submit" className="w-full p-2 rounded-md">
+        <button type="submit" className="w-full p-2 rounded-md bg-blue-500">
           Submit
         </button>
       </form>

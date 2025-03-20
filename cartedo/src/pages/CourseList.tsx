@@ -38,7 +38,7 @@ const CourseList: React.FC = () => {
       {error ? (
         <div> something went wrong</div>
       ) : (
-        <div className="flex flex-wrap gap-10">
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] p-4 gap-10">
           {courses.map((course) => (
             <CourseItem course={course} key={course.id} />
           ))}
